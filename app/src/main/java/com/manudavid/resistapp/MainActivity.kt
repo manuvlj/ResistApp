@@ -94,14 +94,15 @@ class MainActivity : AppCompatActivity() {
             calculate(int = tira_1, int1 = tira_2, double = tira_3, double1 = tolerancia) }
         cinco_tol_button.setOnClickListener {tolerancia = 5.0
             calculate(int = tira_1, int1 = tira_2, double = tira_3, double1 = tolerancia) }
-        cerocinco_tol_button.setOnClickListener {tolerancia = 0.5
+        puntocinco_tol_button.setOnClickListener {tolerancia = 0.5
             calculate(int = tira_1, int1 = tira_2, double = tira_3, double1 = tolerancia) }
-        puntocinco_tol_button.setOnClickListener {tolerancia = 0.25
+        veinticinco_tol_button.setOnClickListener {tolerancia = 0.25
             calculate(int = tira_1, int1 = tira_2, double = tira_3, double1 = tolerancia) }
-        veinticinco_tol_button.setOnClickListener {tolerancia = 0.1
+        puntouno_tol_button.setOnClickListener {tolerancia = 0.1
             calculate(int = tira_1, int1 = tira_2, double = tira_3, double1 = tolerancia) }
-        puntouno_tol_button.setOnClickListener {tolerancia = 0.05
+        cerocinco_tol_button.setOnClickListener {tolerancia = 0.05
             calculate(int = tira_1, int1 = tira_2, double = tira_3, double1 = tolerancia) }
+
     }
 
     fun calculate (int: Int, int1: Int, double: Double, double1: Double){
